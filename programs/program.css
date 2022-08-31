@@ -1,0 +1,31 @@
+body {
+  margin: 10px;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+.shs {
+  border: 4px solid black;
+  border-right: 20px solid black;
+  border-bottom:  10px solid black;
+  margin-bottom: 20px;
+  background-color: #fff1bc;
+}
+
+.jhs {
+  border: 4px solid black;
+  border-right: 20px solid black;
+  border-bottom:  10px solid black;
+  background-color: lightgreen;
+ 
+}
+
+.shs, .jhs {
+  border-radius: 4px; 
+  padding: 20px;
+}
